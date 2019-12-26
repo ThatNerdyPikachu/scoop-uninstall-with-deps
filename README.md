@@ -2,7 +2,11 @@
 
 Simple program that uninstalls a [scoop](https://scoop.sh) package, along with its dependencies.
 
-## Usage
+## Requirements
+- go compiler
+- [scoop](https://scoop.sh)
+
+## Installation
 ``go build`` it (``scoop install go``), and optionally add this function to your PowerShell profile:
 
 ```powershell
